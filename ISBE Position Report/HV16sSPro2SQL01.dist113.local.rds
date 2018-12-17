@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HV16sSPro2SQL01.dist113.local">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=HV16sSPro2SQL01.dist113.local;Initial Catalog=skyward</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>7b652435-a6e0-463e-968f-807583b20a37</DataSourceID>
+</RptDataSource>
