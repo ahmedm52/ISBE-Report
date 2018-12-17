@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ISBE Position Report", "ISBE Position Report\ISBE Position Report.rptproj", "{F1B8993D-E6C3-4D4F-ACF4-D99A06667BB6}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ISBE Non Certified", "ISBE Non Certified\ISBE Non Certified.rptproj", "{A214BC22-F78F-4F05-83D1-43C0C91F235B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -20,6 +22,14 @@ Global
 		{F1B8993D-E6C3-4D4F-ACF4-D99A06667BB6}.Release|Default.ActiveCfg = Release
 		{F1B8993D-E6C3-4D4F-ACF4-D99A06667BB6}.Release|Default.Build.0 = Release
 		{F1B8993D-E6C3-4D4F-ACF4-D99A06667BB6}.Release|Default.Deploy.0 = Release
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Debug|Default.ActiveCfg = Debug
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Debug|Default.Build.0 = Debug
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Debug|Default.Deploy.0 = Debug
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.DebugLocal|Default.Build.0 = DebugLocal
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Release|Default.ActiveCfg = Release
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Release|Default.Build.0 = Release
+		{A214BC22-F78F-4F05-83D1-43C0C91F235B}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

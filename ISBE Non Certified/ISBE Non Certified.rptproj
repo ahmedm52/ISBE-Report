@@ -8,12 +8,12 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Skyward/State and Federal Reporting</TargetReportFolder>
-    <TargetDatasetFolder>Skyward/State and Federal Reporting</TargetDatasetFolder>
-    <TargetDatasourceFolder>Skyward/State and Federal Reporting</TargetDatasourceFolder>
-    <TargetReportPartFolder>Skyward/State and Federal Reporting</TargetReportPartFolder>
-    <TargetServerURL>http://rs.dist113.org/ReportServer</TargetServerURL>
-    <StartItem>ISBE Position Report.rdl</StartItem>
+    <TargetReportFolder>ISBE Non Certified</TargetReportFolder>
+    <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+    <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
+    <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/ReportServer</TargetServerURL>
+    <StartItem>ISBE Non Certified.rdl</StartItem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -23,7 +23,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>ISBE Position Report</TargetReportFolder>
+    <TargetReportFolder>ISBE Non Certified</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -37,7 +37,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>ISBE Position Report</TargetReportFolder>
+    <TargetReportFolder>ISBE Non Certified</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -53,7 +53,7 @@
     <DataSource Include="HV16sSPro2SQL01.dist113.local.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="ISBE Position Report.rdl" />
+    <Report Include="ISBE Non Certified.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
